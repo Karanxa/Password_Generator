@@ -124,7 +124,7 @@ def Recommended():
 
 
 
-btns_frame = Frame(window, width = 800, height = 600, bg = "grey")
+#btns_frame = Frame(window, width = 800, height = 600, bg = "grey")
 btns_frame.pack(side = "left", fill = "y")
 
 button1 = Button(btns_frame, text = "Weak", fg = "black", width = 32, height = 5, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: Weak()).grid(row = 0, column = 0, columnspan = 3, padx = 2, pady = 2)
