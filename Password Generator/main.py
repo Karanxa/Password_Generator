@@ -138,7 +138,3 @@ button8 = Button(btns_frame, text = "Recommended", fg = "black", width = 32, hei
 
  
 
-# textPad.pack()
-window.mainloop()
-
-
