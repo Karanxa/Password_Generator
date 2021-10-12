@@ -136,5 +136,4 @@ button6 = Button(btns_frame, text = "Strong", fg = "black", width = 32, height =
 button7 = Button(btns_frame, text = "You can't even try", fg = "black", width = 32, height = 5, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: YouCant()).grid(row = 6, column = 0, columnspan = 3, padx = 2, pady = 2)
 button8 = Button(btns_frame, text = "Recommended", fg = "black", width = 32, height = 6, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: Recommended()).grid(row = 7, column = 0, columnspan = 3, padx = 2, pady = 2)
 
- 
-
+ # Add Main window function so that it can work on the window.
